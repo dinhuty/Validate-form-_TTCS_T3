@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validate form</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="title">
+        <span  class="title_span">T</span><span class="title_span">T</span><span class="title_span">C</span><span class="title_span">S</span><span class="title_span">_</span><span class="title_span">T</span><span class="title_span">u</span><span class="title_span">a</span><span class="title_span">n</span><span class="title_span">3</span>
+    </div>   
+     <!-- <a class="face" href="https://www.facebook.com/Dinhuty"><i class="fa-brands fa-google"></i></a> -->
+    <div id="loading">
+        <div class="percent" id="per">
+            
+        </div>
+    </div>
+    <div class="form">
+        <div class="log_reg">
+            <div id="log" class="acctive">Log In</div>
+            <div id="reg">Register</div>
+        </div>
+       <form class="container">
+            <div class="container-login on">
+                <div class="icon">
+                  
+                    <i class="fa-brands fa-facebook" >  </i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="in_output">
+                    <span>Tài khoản:</span>
+                    <input type="gmail" placeholder="Gmail" required>
+                    <span>Mật khẩu:</span>
+                    <input type="Password" placeholder="Password">
+                    <div class="remember">
+                        <input type="checkbox">
+                        <p>Remember password <a href="#" class="forgot">Quên mật khẩu?</a></p>
+                    </div>
+                    
+                </div>
+
+                <div class="btn_log">
+                    <button class="btn_logx">
+                        Login
+                       
+
+                    </button>
+                </div>
+                
+            </div>
+            <div class="container-register ">
+                <div class="icon2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="in_output">
+                    <span>Tài khoản:</span>
+                    <input id="gmail" type="gmail" placeholder="Gmail" required>
+                    <span id="error_gmail"></span>
+                    <span>Mật khẩu:</span>
+                    <input id="password" type="Password" placeholder="Password">
+                    <span id="error_password"></span>
+                    <span>Xác nhận mật khẩu:</span>
+                    <input id="password2" type="Password" placeholder="Password">
+                    <span id="error_password2"></span>
+                   
+                </div>
+                <div class="btn_log btn_reg">
+                    <button class="btn_logx">
+                        Register
+                    </button>
+                </div>
+            </div>
+       </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
